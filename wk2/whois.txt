@@ -1,0 +1,216 @@
+1. spotify.com
+
+
+Registrar Info
+
+Name
+PortsGroup AB
+
+Whois Server
+whois.domaininfo.com
+
+Referral URL
+ports.domains
+
+Status
+
+Important Dates
+
+Expires On
+2030-04-23
+
+Registered On
+2006-04-23
+
+Updated On
+2021-08-02
+
+Name Servers
+
+dns1.p07.nsone.net
+198.51.44.7
+
+dns2.p07.nsone.net
+198.51.45.7
+
+dns3.p07.nsone.net
+198.51.44.71
+
+dns4.p07.nsone.net
+198.51.45.71
+
+ns-cloud-a1.googledomains.com
+216.239.32.106
+
+ns-cloud-a2.googledomains.com
+216.239.34.106
+
+ns-cloud-a3.googledomains.com
+216.239.36.106
+
+ns-cloud-a4.googledomains.com
+216.239.38.106
+
+2. kinsta.com
+
+
+Name
+GoDaddy.com, LLC
+
+Whois Server
+whois.godaddy.com
+
+Referral URL
+https://www.godaddy.com
+
+Status
+
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Important Dates
+
+Expires On
+2026-04-26
+
+Registered On
+2013-04-26
+
+Updated On
+2020-09-29
+
+Name Servers
+
+ALEXANDRA.NS.CLOUDFLARE.COM
+172.64.34.30
+
+STERLING.NS.CLOUDFLARE.COM
+162.159.44.143
+
+3. wix.com
+
+
+Registrar Info
+
+Name
+GoDaddy.com, LLC
+
+Whois Server
+whois.godaddy.com
+
+Referral URL
+https://www.godaddy.com
+
+Status
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Important Dates
+
+Expires On
+2029-05-12
+
+Registered On
+1995-05-11
+
+Updated On
+2020-02-20
+
+Name Servers
+
+DNS1.P03.NSONE.NET
+198.51.44.3
+
+DNS2.P03.NSONE.NET
+198.51.45.3
+
+DNS3.P03.NSONE.NET
+198.51.44.67
+
+DNS4.P03.NSONE.NET
+198.51.45.67
+
+4. georgebrown.ca
+
+Registrar Info
+
+Name
+Webnames.ca Inc.
+
+Whois Server
+whois.ca.fury.ca
+
+Referral URL
+www.webnames.ca
+
+Status
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+
+Important Dates
+
+Expires On
+2022-07-04
+
+Registered On
+2002-07-04
+
+Updated On
+2022-01-22
+
+Name Servers
+
+ns1.d-zone.ca
+162.219.54.2
+
+ns1.georgebrown.ca
+198.96.86.35
+
+ns2.d-zone.ca
+162.219.55.2
+
+ns2.georgebrown.ca
+198.96.87.135
+
+5. linuxhint.com
+
+Registrar Info
+
+Name
+GoDaddy.com, LLC
+
+Whois Server
+whois.godaddy.com
+
+Referral URL
+https://www.godaddy.com
+
+Status
+
+clientDeleteProhibited https://icann.org/epp#clientDeleteProhibited
+clientRenewProhibited https://icann.org/epp#clientRenewProhibited
+clientTransferProhibited https://icann.org/epp#clientTransferProhibited
+clientUpdateProhibited https://icann.org/epp#clientUpdateProhibited
+
+Important Dates
+
+Expires On
+2026-12-29
+
+Registered On
+2016-12-29
+
+Updated On
+2020-10-24
+
+Name Servers
+
+MELINDA.NS.CLOUDFLARE.COM
+108.162.192.198
+
+MILAN.NS.CLOUDFLARE.COM
+172.64.35.21
+

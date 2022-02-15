@@ -1,0 +1,12 @@
+$ ping 138.197.139.235 -w 5
+
+Pinging 138.197.139.235 with 32 bytes of data:
+Reply from 138.197.139.235: bytes=32 time=338ms TTL=41
+Reply from 138.197.139.235: bytes=32 time=318ms TTL=41
+Request timed out.
+Reply from 138.197.139.235: bytes=32 time=312ms TTL=41
+
+Ping statistics for 138.197.139.235:
+    Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+Approximate round trip times in milli-seconds:
+    Minimum = 312ms, Maximum = 338ms, Average = 322ms

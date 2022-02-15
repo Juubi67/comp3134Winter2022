@@ -1,0 +1,54 @@
+1. Nmap to scan 1000 TCP ports
+
+root@comp3134-winter2022-cybersecurity:~# nmap georgebrown.ca
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-15 21:57 UTC
+Nmap scan report for georgebrown.ca (99.79.139.11)
+Host is up (0.038s latency).
+rDNS record for 99.79.139.11: ec2-99-79-139-11.ca-central-1.compute.amazonaws.com
+Not shown: 997 filtered ports
+PORT    STATE SERVICE
+22/tcp  open  ssh
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 4.54 seconds
+
+2. To scan a single Port
+
+root@comp3134-winter2022-cybersecurity:~# nmap -p 80 linux.org
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-15 22:00 UTC
+Nmap scan report for linux.org (172.64.80.1)
+Host is up (0.0054s latency).
+Other addresses for linux.org (not scanned): 2606:4700:130:436c:6f75:6466:6c61:7265
+
+PORT   STATE SERVICE
+80/tcp open  http
+
+Nmap done: 1 IP address (1 host up) scanned in 0.13 seconds
+
+3.To scan a range of ports
+
+root@comp3134-winter2022-cybersecurity:~# nmap -p 0-500 psa.pm
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-15 22:02 UTC
+Nmap scan report for psa.pm (172.64.80.1)
+Host is up (0.0073s latency).
+Other addresses for psa.pm (not scanned): 2606:4700:130:436c:6f75:6466:6c61:7265
+Not shown: 499 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 3.24 seconds
+
+4. To scan 100 most common ports (Fast
+
+root@comp3134-winter2022-cybersecurity:~# nmap -F samsung.com
+Starting Nmap 7.80 ( https://nmap.org ) at 2022-02-15 22:04 UTC
+Nmap scan report for samsung.com (211.45.27.231)
+Host is up (0.22s latency).
+Not shown: 98 filtered ports
+PORT    STATE SERVICE
+80/tcp  open  http
+443/tcp open  https
+
+Nmap done: 1 IP address (1 host up) scanned in 6.98 seconds
