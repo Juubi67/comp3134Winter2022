@@ -1,0 +1,16 @@
+root@comp3134-winter2022-cybersecurity:~# tcpdump -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+23:42:12.053366 IP 198.211.111.194.9752 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 2554585324, win 1189, options [nop,nop,TS val 787330143 ecr 2368315193], length 0
+23:42:12.053453 IP comp3134-winter2022-cybersecurity.ssh > 198.211.111.194.9752: Flags [P.], seq 1:129, ack 0, win 502, options [nop,nop,TS val 2368315204 ecr 787330143], length 128
+23:42:12.053570 IP comp3134-winter2022-cybersecurity.ssh > 198.211.111.194.9752: Flags [P.], seq 129:193, ack 0, win 502, options [nop,nop,TS val 2368315204 ecr 787330143], length 64
+23:42:12.053682 IP comp3134-winter2022-cybersecurity.ssh > 198.211.111.194.9752: Flags [P.], seq 193:321, ack 0, win 502, options [nop,nop,TS val 2368315204 ecr 787330143], length 128
+23:42:12.053766 IP comp3134-winter2022-cybersecurity.ssh > 198.211.111.194.9752: Flags [P.], seq 321:385, ack 0, win 502, options [nop,nop,TS val 2368315204 ecr 787330143], length 64
+23:42:12.054943 IP comp3134-winter2022-cybersecurity.54250 > 67.207.67.2.domain: 17426+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+23:42:12.055133 IP comp3134-winter2022-cybersecurity.44459 > 67.207.67.2.domain: 100+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+23:42:12.055250 IP comp3134-winter2022-cybersecurity.34461 > 67.207.67.2.domain: 58315+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+23:42:12.056475 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.54250: 17426 NXDomain 0/1/1 (124)
+23:42:12.056647 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.34461: 58315 NXDomain 0/1/1 (124)
+23:42:12.056797 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.44459: 100 NXDomain 0/1/1 (124)
+23:42:12.056827 IP comp3134-winter2022-cybersecurity.54250 > 67.207.67.2.domain: 17426+ PTR? 235.139.197.138.in-addr.arpa. (46)
+23:42:12.056969 IP comp3134-winter2022-cybersecurity.34461 > 67.207.67.2.domain: 58315+ PTR? 235.139.197.138.in-addr.arpa. (46)

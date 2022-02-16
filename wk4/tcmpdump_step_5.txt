@@ -1,0 +1,60 @@
+root@comp3134-winter2022-cybersecurity:~# tcpdump -c 5 -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+00:11:55.568757 IP 162.243.188.66.60966 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 3939086812, win 2087, options [nop,nop,TS val 2117533111 ecr 3913092301], length 0
+        0x0000:  768b ea69 d087 fe00 0000 0101 0800 4500  v..i..........E.
+        0x0010:  0034 997d 4000 3406 3760 a2f3 bc42 8ac5  .4.}@.4.7`...B..
+        0x0020:  8beb ee26 0016 71a6 c51b eac9 b1dc 8010  ...&..q.........
+        0x0030:  0827 c510 0000 0101 080a 7e36 fdb7 e93d  .'........~6...=
+        0x0040:  0ccd                                     ..
+00:11:55.572802 IP comp3134-winter2022-cybersecurity.ssh > 162.243.188.66.60966: Flags [P.], seq 1:129, ack 0, win 501, options [nop,nop,TS val 3913092318 ecr 2117533111], length 128
+        0x0000:  fe00 0000 0101 768b ea69 d087 0800 4510  ......v..i....E.
+        0x0010:  00b4 e546 4000 4006 df06 8ac5 8beb a2f3  ...F@.@.........
+        0x0020:  bc42 0016 ee26 eac9 b1dc 71a6 c51b 8018  .B...&....q.....
+        0x0030:  01f5 768d 0000 0101 080a e93d 0cde 7e36  ..v........=..~6
+        0x0040:  fdb7 a15c 668b 412a f8cb 7ca7 85a8 66c1  ...\f.A*..|...f.
+        0x0050:  09b8 8f07 336f 5b19 a218 1dd0 ca5e 81ce  ....3o[......^..
+        0x0060:  0b0b 884e a63b e341 df3a 91cd c184 e0d4  ...N.;.A.:......
+        0x0070:  2dc2 9972 024d 5c4c 5dfd 9dda a892 aa46  -..r.M\L]......F
+        0x0080:  c08c 8a80 536f aed2 2134 dbf3 881b 16a4  ....So..!4......
+        0x0090:  733b 04cc 1a1f ebd6 7a2c 33c4 d822 b5e0  s;......z,3.."..
+        0x00a0:  6eeb ef4b 4e2e bc18 13e3 1f58 ac3d bc7b  n..KN......X.=.{
+        0x00b0:  7a3f 9263 7b52 8da4 7afc eab9 54a1 cc91  z?.c{R..z...T...
+        0x00c0:  8272                                     .r
+00:11:55.573014 IP comp3134-winter2022-cybersecurity.ssh > 162.243.188.66.60966: Flags [P.], seq 129:193, ack 0, win 501, options [nop,nop,TS val 3913092318 ecr 2117533111], length 64
+        0x0000:  fe00 0000 0101 768b ea69 d087 0800 4510  ......v..i....E.
+        0x0010:  0074 e547 4000 4006 df45 8ac5 8beb a2f3  .t.G@.@..E......
+        0x0020:  bc42 0016 ee26 eac9 b25c 71a6 c51b 8018  .B...&...\q.....
+        0x0030:  01f5 764d 0000 0101 080a e93d 0cde 7e36  ..vM.......=..~6
+        0x0040:  fdb7 5e7f 6b19 cb65 0448 b4e9 b9a8 c94a  ..^.k..e.H.....J
+        0x0050:  41fb 649a 2740 49b3 c477 e2b6 2d56 1250  A.d.'@I..w..-V.P
+        0x0060:  d2ae 6319 0a25 c047 f23f 23f4 56a6 7040  ..c..%.G.?#.V.p@
+        0x0070:  61d3 a2fa f291 2c4f 8eb4 a3b5 9b72 351b  a.....,O.....r5.
+        0x0080:  11e0                                     ..
+00:11:55.573178 IP comp3134-winter2022-cybersecurity.ssh > 162.243.188.66.60966: Flags [P.], seq 193:321, ack 0, win 501, options [nop,nop,TS val 3913092318 ecr 2117533111], length 128
+        0x0000:  fe00 0000 0101 768b ea69 d087 0800 4510  ......v..i....E.
+        0x0010:  00b4 e548 4000 4006 df04 8ac5 8beb a2f3  ...H@.@.........
+        0x0020:  bc42 0016 ee26 eac9 b29c 71a6 c51b 8018  .B...&....q.....
+        0x0030:  01f5 768d 0000 0101 080a e93d 0cde 7e36  ..v........=..~6
+        0x0040:  fdb7 e2a5 2851 f3fe a971 8b54 4e83 c1ef  ....(Q...q.TN...
+        0x0050:  d2ee 627a 914b cff9 bbb0 0de7 2b04 f1c8  ..bz.K......+...
+        0x0060:  4b28 c67f 6420 18b4 7238 eb04 9a53 5e84  K(..d...r8...S^.
+        0x0070:  753c 55be 4e70 4853 ac10 bba5 9bbe 4b35  u<U.NpHS......K5
+        0x0080:  7268 3215 d35c 4f07 e917 7c3b d39e 9589  rh2..\O...|;....
+        0x0090:  8cc2 4542 0b58 4cb1 ef97 5ae2 9617 087e  ..EB.XL...Z....~
+        0x00a0:  b86d 1e62 1f81 f6e6 2186 6eb0 5dd3 0450  .m.b....!.n.]..P
+        0x00b0:  0518 d513 a7aa 8af2 1f63 4d53 fea0 c59d  .........cMS....
+        0x00c0:  5f67                                     _g
+00:11:55.573336 IP comp3134-winter2022-cybersecurity.ssh > 162.243.188.66.60966: Flags [P.], seq 321:385, ack 0, win 501, options [nop,nop,TS val 3913092319 ecr 2117533111], length 64
+        0x0000:  fe00 0000 0101 768b ea69 d087 0800 4510  ......v..i....E.
+        0x0010:  0074 e549 4000 4006 df43 8ac5 8beb a2f3  .t.I@.@..C......
+        0x0020:  bc42 0016 ee26 eac9 b31c 71a6 c51b 8018  .B...&....q.....
+        0x0030:  01f5 764d 0000 0101 080a e93d 0cdf 7e36  ..vM.......=..~6
+        0x0040:  fdb7 eef5 a70c ffab 9e04 074f 4bbf 63c4  ...........OK.c.
+        0x0050:  b2c9 c30f 3673 aa21 8c80 e855 5a12 7d38  ....6s.!...UZ.}8
+        0x0060:  9fdf 8523 86f1 b477 4972 43bc 1d06 756e  ...#...wIrC...un
+        0x0070:  3781 0f05 441b b59d cf4e 9d42 6114 93da  7...D....N.Ba...
+        0x0080:  5c63                                     \c
+5 packets captured
+43 packets received by filter
+11 packets dropped by kernel
