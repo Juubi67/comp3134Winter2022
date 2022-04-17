@@ -1,0 +1,2 @@
+when we goto /storexss.php page, it will redirect to /directory_traversal_part1.php page. 
+because, we didnt sanitize the outputs from read file. so it will execute the js script.

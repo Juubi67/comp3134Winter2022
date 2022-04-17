@@ -1,0 +1,18 @@
+1) Using the page getusers_1.php, type the following value into the form: "Ben"
+No result found.
+
+2) Using the page getusers_1.php, type the following value into the form: "Ben'-- "
+it show the Ben user details in webpage.
+
+3) Using the page getusers_1.php, type the following value into the form: "Ben' or 1=1"
+No result found.
+
+
+1) Using the page getusers_2.php, type the following value into the form: "Ben"
+No result found.
+
+2) Using the page getusers_2.php, type the following value into the form: "Ben'-- "
+No result found.
+
+3) Using the page getusers_2.php, type the following value into the form: "Ben' or 1=1"
+No result found.

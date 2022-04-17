@@ -1,0 +1,2 @@
+When i try q=hello, it show debug errors due to, there is no folder name 'hello'
+This webpage show the server's folder structure in given path by query.

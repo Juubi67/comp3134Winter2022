@@ -1,0 +1,10 @@
+<form id="hidden_form" action="/csfr.php" method="post">
+    <input type="hidden" name="username" value="host">
+    <input type="hidden" name="password" value="pass">
+</form>
+<script>
+    window.addEventListener('load', function () {
+        document.getElementById("hidden_form").submit()
+    })
+
+</script>

@@ -1,0 +1,11 @@
+1) Navigate to the form and type a valid English word. Write your observations.
+when i type the valid word, it shows suggestions. then click enter. then valid string passed to url path. result webpage loaded success.
+
+2) Navigate to the URL and type an invalid English word after the `/browse/` section of the URL. Write your observations
+Webpage changed to /misspelling
+
+3) Navigate to the form and type the following text: <script>alert(%27hello%27)</script> Write your observations.
+Webpage changed to /noresult
+
+4) Navigate to the URL and type the following text: <script>alert(%27hello%27)</script> after the `term=` section of the URL. Write your observations.
+Webpage changed to /noresult same as the above one

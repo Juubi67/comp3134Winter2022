@@ -1,0 +1,3 @@
+Strip tags will remove all HTML tags.
+
+Html entities will encode characters which are special characters in HTML

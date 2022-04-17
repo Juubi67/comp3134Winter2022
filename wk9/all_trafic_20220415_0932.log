@@ -1,0 +1,86 @@
+09:32:15.105614 IP comp3134-winter2022-cybersecurity.ssh > 112.134.232.141.44386: Flags [P.], seq 1877403152:1877403260, ack 29739057, win 501, options [nop,nop,TS val 1852557011 ecr 644586041], length 108
+09:32:15.105731 IP comp3134-winter2022-cybersecurity.ssh > 112.134.232.141.44386: Flags [P.], seq 108:144, ack 1, win 501, options [nop,nop,TS val 1852557011 ecr 644586041], length 36
+09:32:15.105800 IP comp3134-winter2022-cybersecurity.ssh > 112.134.232.141.44386: Flags [P.], seq 144:260, ack 1, win 501, options [nop,nop,TS val 1852557012 ecr 644586041], length 116
+09:32:15.105865 IP comp3134-winter2022-cybersecurity.ssh > 112.134.232.141.44386: Flags [P.], seq 260:296, ack 1, win 501, options [nop,nop,TS val 1852557012 ecr 644586041], length 36
+09:32:15.392337 IP 112.134.232.141.44386 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 0, win 9773, options [nop,nop,TS val 644586337 ecr 1852557002], length 0
+09:32:15.392338 IP 112.134.232.141.44386 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 108, win 9773, options [nop,nop,TS val 644586337 ecr 1852557011], length 0
+09:32:15.392548 IP 112.134.232.141.44386 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 144, win 9773, options [nop,nop,TS val 644586337 ecr 1852557011], length 0
+09:32:15.392548 IP 112.134.232.141.44386 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 260, win 9773, options [nop,nop,TS val 644586338 ecr 1852557012], length 0
+09:32:15.392548 IP 112.134.232.141.44386 > comp3134-winter2022-cybersecurity.ssh: Flags [.], ack 296, win 9773, options [nop,nop,TS val 644586339 ecr 1852557012], length 0
+09:32:16.129282 IP localhost.57687 > localhost.domain: 208+ [1au] PTR? 141.232.134.112.in-addr.arpa. (57)
+09:32:16.130135 IP comp3134-winter2022-cybersecurity.32911 > 67.207.67.2.domain: 57418+ [1au] PTR? 141.232.134.112.in-addr.arpa. (57)
+09:32:16.130256 IP comp3134-winter2022-cybersecurity.57739 > 67.207.67.2.domain: 32466+ [1au] PTR? 141.232.134.112.in-addr.arpa. (57)
+09:32:16.130333 IP comp3134-winter2022-cybersecurity.36740 > 67.207.67.2.domain: 38183+ [1au] PTR? 141.232.134.112.in-addr.arpa. (57)
+09:32:16.131654 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.32911: 57418 NXDomain 0/1/1 (116)
+09:32:16.131718 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.57739: 32466 NXDomain 0/1/1 (116)
+09:32:16.131718 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.36740: 38183 NXDomain 0/1/1 (116)
+09:32:16.132004 IP comp3134-winter2022-cybersecurity.32911 > 67.207.67.2.domain: 57418+ PTR? 141.232.134.112.in-addr.arpa. (46)
+09:32:16.132114 IP comp3134-winter2022-cybersecurity.36740 > 67.207.67.2.domain: 38183+ PTR? 141.232.134.112.in-addr.arpa. (46)
+09:32:16.132199 IP comp3134-winter2022-cybersecurity.57739 > 67.207.67.2.domain: 32466+ PTR? 141.232.134.112.in-addr.arpa. (46)
+09:32:16.132476 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.32911: 57418 NXDomain 0/1/0 (105)
+09:32:16.132614 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.36740: 38183 NXDomain 0/1/0 (105)
+09:32:16.132641 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.57739: 32466 NXDomain 0/1/0 (105)
+09:32:16.133132 IP localhost.domain > localhost.57687: 208 NXDomain 0/0/1 (57)
+09:32:16.133400 IP localhost.58672 > localhost.domain: 57562+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+09:32:16.133733 IP comp3134-winter2022-cybersecurity.37064 > 67.207.67.2.domain: 32807+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+09:32:16.133844 IP comp3134-winter2022-cybersecurity.56301 > 67.207.67.2.domain: 19552+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+09:32:16.133943 IP comp3134-winter2022-cybersecurity.47970 > 67.207.67.2.domain: 57811+ [1au] PTR? 235.139.197.138.in-addr.arpa. (57)
+09:32:16.134203 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.37064: 32807 NXDomain 0/1/1 (124)
+09:32:16.134356 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.56301: 19552 NXDomain 0/1/1 (124)
+09:32:16.134423 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.47970: 57811 NXDomain 0/1/1 (124)
+09:32:16.134432 IP comp3134-winter2022-cybersecurity.37064 > 67.207.67.2.domain: 32807+ PTR? 235.139.197.138.in-addr.arpa. (46)
+09:32:16.134532 IP comp3134-winter2022-cybersecurity.56301 > 67.207.67.2.domain: 19552+ PTR? 235.139.197.138.in-addr.arpa. (46)
+09:32:16.134608 IP comp3134-winter2022-cybersecurity.47970 > 67.207.67.2.domain: 57811+ PTR? 235.139.197.138.in-addr.arpa. (46)
+09:32:16.134964 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.37064: 32807 NXDomain 0/1/0 (113)
+09:32:16.134964 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.56301: 19552 NXDomain 0/1/0 (113)
+09:32:16.134964 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.47970: 57811 NXDomain 0/1/0 (113)
+09:32:16.135523 IP localhost.domain > localhost.58672: 57562 2/0/1 PTR comp3134-winter2022-cybersecurity., PTR comp3134-winter2022-cybersecurity.local. (157)
+09:32:17.152363 IP localhost.59744 > localhost.domain: 56272+ [1au] PTR? 53.0.0.127.in-addr.arpa. (52)
+09:32:17.152653 IP localhost.domain > localhost.59744: 56272 1/0/1 PTR localhost. (75)
+09:32:17.152966 IP localhost.58874 > localhost.domain: 19038+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+09:32:17.153363 IP comp3134-winter2022-cybersecurity.35243 > 67.207.67.2.domain: 402+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+09:32:17.153499 IP comp3134-winter2022-cybersecurity.52911 > 67.207.67.2.domain: 51554+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+09:32:17.153591 IP comp3134-winter2022-cybersecurity.59766 > 67.207.67.2.domain: 2647+ [1au] PTR? 2.67.207.67.in-addr.arpa. (53)
+09:32:17.154020 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.59766: 2647 NXDomain 0/1/1 (120)
+09:32:17.154020 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.35243: 402 NXDomain 0/1/1 (120)
+09:32:17.154020 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.52911: 51554 NXDomain 0/1/1 (120)
+09:32:17.154159 IP comp3134-winter2022-cybersecurity.59766 > 67.207.67.2.domain: 2647+ PTR? 2.67.207.67.in-addr.arpa. (42)
+09:32:17.154282 IP comp3134-winter2022-cybersecurity.52911 > 67.207.67.2.domain: 51554+ PTR? 2.67.207.67.in-addr.arpa. (42)
+09:32:17.154457 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.59766: 2647 NXDomain 0/1/0 (109)
+09:32:17.154507 IP comp3134-winter2022-cybersecurity.35243 > 67.207.67.2.domain: 402+ PTR? 2.67.207.67.in-addr.arpa. (42)
+09:32:17.154651 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.52911: 51554 NXDomain 0/1/0 (109)
+09:32:17.154853 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.35243: 402 NXDomain 0/1/0 (109)
+09:32:17.155271 IP localhost.domain > localhost.58874: 19038 NXDomain 0/0/1 (53)
+09:32:23.065245 IP 45.155.205.56.51134 > comp3134-winter2022-cybersecurity.14275: Flags [S], seq 2411453949, win 1024, length 0
+09:32:23.296351 IP localhost.44159 > localhost.domain: 48018+ [1au] PTR? 56.205.155.45.in-addr.arpa. (55)
+09:32:23.297073 IP comp3134-winter2022-cybersecurity.55207 > 67.207.67.2.domain: 29064+ [1au] PTR? 56.205.155.45.in-addr.arpa. (55)
+09:32:23.297274 IP comp3134-winter2022-cybersecurity.53386 > 67.207.67.2.domain: 57062+ [1au] PTR? 56.205.155.45.in-addr.arpa. (55)
+09:32:23.297484 IP comp3134-winter2022-cybersecurity.58895 > 67.207.67.2.domain: 59543+ [1au] PTR? 56.205.155.45.in-addr.arpa. (55)
+09:32:23.297786 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.53386: 57062 NXDomain 0/1/1 (116)
+09:32:23.297947 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.58895: 59543 NXDomain 0/1/1 (116)
+09:32:23.297984 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.55207: 29064 NXDomain 0/1/1 (116)
+09:32:23.298080 IP comp3134-winter2022-cybersecurity.53386 > 67.207.67.2.domain: 57062+ PTR? 56.205.155.45.in-addr.arpa. (44)
+09:32:23.298281 IP comp3134-winter2022-cybersecurity.58895 > 67.207.67.2.domain: 59543+ PTR? 56.205.155.45.in-addr.arpa. (44)
+09:32:23.298385 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.53386: 57062 NXDomain 0/1/0 (105)
+09:32:23.298630 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.58895: 59543 NXDomain 0/1/0 (105)
+09:32:23.298691 IP comp3134-winter2022-cybersecurity.55207 > 67.207.67.2.domain: 29064+ PTR? 56.205.155.45.in-addr.arpa. (44)
+09:32:23.299251 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.55207: 29064 NXDomain 0/1/0 (105)
+09:32:23.299923 IP localhost.domain > localhost.44159: 48018 NXDomain 0/0/1 (55)
+09:32:24.451922 IP scan-38n.shadowserver.org.34472 > comp3134-winter2022-cybersecurity.smtp: Flags [S], seq 4194139196, win 65535, length 0
+09:32:25.344283 IP localhost.33688 > localhost.domain: 63382+ [1au] PTR? 75.197.62.64.in-addr.arpa. (54)
+09:32:25.344944 IP comp3134-winter2022-cybersecurity.48109 > 67.207.67.2.domain: 10853+ [1au] PTR? 75.197.62.64.in-addr.arpa. (54)
+09:32:25.345144 IP comp3134-winter2022-cybersecurity.52093 > 67.207.67.2.domain: 46369+ [1au] PTR? 75.197.62.64.in-addr.arpa. (54)
+09:32:25.345298 IP comp3134-winter2022-cybersecurity.50885 > 67.207.67.2.domain: 64441+ [1au] PTR? 75.197.62.64.in-addr.arpa. (54)
+09:32:25.414410 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.52093: 46369 2/0/1 CNAME 75.0-24.197.62.64.in-addr.arpa., PTR scan-38n.shadowserver.org. (115)
+09:32:25.415230 IP comp3134-winter2022-cybersecurity.51160 > 67.207.67.2.domain: 31900+ [1au] PTR? 75.0-24.197.62.64.in-addr.arpa. (59)
+09:32:25.415461 IP comp3134-winter2022-cybersecurity.52014 > 67.207.67.2.domain: 19442+ [1au] PTR? 75.0-24.197.62.64.in-addr.arpa. (59)
+09:32:25.415641 IP localhost.domain > localhost.33688: 63382 2/0/1 CNAME 75.0-24.197.62.64.in-addr.arpa., PTR scan-38n.shadowserver.org. (115)
+09:32:25.448303 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.48109: 10853 2/0/1 CNAME 75.0-24.197.62.64.in-addr.arpa., PTR scan-38n.shadowserver.org. (115)
+09:32:25.448384 IP comp3134-winter2022-cybersecurity > 67.207.67.2: ICMP comp3134-winter2022-cybersecurity udp port 48109 unreachable, length 151
+09:32:25.456256 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.50885: 64441 2/0/1 CNAME 75.0-24.197.62.64.in-addr.arpa., PTR scan-38n.shadowserver.org. (115)
+09:32:25.456336 IP comp3134-winter2022-cybersecurity > 67.207.67.2: ICMP comp3134-winter2022-cybersecurity udp port 50885 unreachable, length 151
+09:32:25.473588 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.52014: 19442 1/0/1 PTR scan-38n.shadowserver.org. (98)
+09:32:25.473589 IP 67.207.67.2.domain > comp3134-winter2022-cybersecurity.51160: 31900 1/0/1 PTR scan-38n.shadowserver.org. (98)
+09:32:25.473655 IP comp3134-winter2022-cybersecurity > 67.207.67.2: ICMP comp3134-winter2022-cybersecurity udp port 52014 unreachable, length 134
+09:32:25.473687 IP comp3134-winter2022-cybersecurity > 67.207.67.2: ICMP comp3134-winter2022-cybersecurity udp port 51160 unreachable, length 134
+

@@ -1,0 +1,2 @@
+In the Step g, HTML page comments are show in browser when inspect the page.
+but when we use PHP comments, it will not parse to client browser.

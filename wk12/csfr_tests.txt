@@ -1,0 +1,7 @@
+- The login functionality in /csfr_action.php will only able to access from /csfr_form.php. 
+because thats the page where its create 'confirmation' Session variable. if we directly try to enter in /csfr_action.php
+it will no longer work.
+
+- The login functionality /csfr.php will work for both options. 
+we can directly input username & password from /csfr.php or 
+we can goto /csfr.html page then it will automatically send inputs to /csfr.php.

@@ -1,0 +1,16 @@
+<h1>Reflected XSS</h1>
+<form id="xss_form">
+    <label for="textfield">
+        <input type="text" id="textfield" style="width: 300px;">
+    </label>
+    <input type="submit" value="submit">
+</form>
+<div id="display">
+</div>
+
+<script>
+    window.addEventListener("submit", function(event){
+        document.getElementById("display").innerHTML = document.getElementById("textfield").value
+        event.preventDefault()
+    })
+</script>
